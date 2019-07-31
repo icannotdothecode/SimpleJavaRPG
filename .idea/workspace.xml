@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d84cad2-c9cc-4ce0-8d0b-0e1566e3068b" name="Default Changelist" comment="" />
+    <list default="true" id="0d84cad2-c9cc-4ce0-8d0b-0e1566e3068b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/adventure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/attacked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/heal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/maingame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attacked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/attacked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maingame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maingame.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,18 +62,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="maingame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="maingame" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maingame" />
       <module name="rpg(via-IntelliJ)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.maingame" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -123,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

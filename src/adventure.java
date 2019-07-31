@@ -5,37 +5,37 @@ import java.io.*;
 
 public class adventure {
     public static void travels(int playerhealth) ///basically the starting point, choose an action and call other methods, etc.
-        throws InterruptedException{
+        throws InterruptedException {
         Scanner Myscan2 = new Scanner(System.in);
         TimeUnit.SECONDS.sleep(1);
         System.out.println("\nChoose your next action");
-        System.out.println("Enter 'M' to move on, and 'H' to heal yourself. ");
+        System.out.println("Enter 'M' to move on, 'H' to heal yourself, and 'L' to list your health. ");
         String action = Myscan2.nextLine();
         TimeUnit.SECONDS.sleep(2);
-        if (action.charAt(0) == 'M'){
+        adventure newtravels;
+        if (action.charAt(0) == 'M') {
             Random rand = new Random();
-            int safeTrip = rand.nextInt(3) + 1;
+            int safeTrip = rand.nextInt(2) + 1;
             switch (safeTrip) {
                 case 1:
                     System.out.println("\nYou find nothing, and continue on.");
-                    adventure newtravels = new adventure();
+                    newtravels = new adventure();
                     travels(playerhealth);
                     break;
                 case 2:
-                    attacked battle1 = new attacked();
                     attacked.attacker(playerhealth);
                     break;
-                case 3:
-                    if (playerhealth < 250){
-                        System.out.println("\nYou find an object on the ground. Touching it makes you feel stronger, and powerful.");
-                        playerhealth = playerhealth + 25;
-                    }else{
-                        System.out.println("\nYou find an object on the ground. After touching it instantly shatters.");
-                    }
-
-                    newtravels = new adventure();
-                    travels(playerhealth);
             }
+        } else if (action.charAt(0) == 'H') {
+            heal.healed(playerhealth);
+        } else if (action.charAt(0) == 'L'){
+            System.out.println("Your health is: " + playerhealth);
+            newtravels = new adventure();
+            travels(playerhealth);
+        } else {
+            System.out.println("Unexpected input, please re-enter.");
+            newtravels = new adventure();
+            travels(playerhealth);
         }
     }
 }
