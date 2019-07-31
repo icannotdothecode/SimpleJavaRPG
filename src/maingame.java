@@ -1,7 +1,7 @@
-import java.util.Scanner;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.io.*;
-import java.util.Random;
+
 public class maingame {
     public static void main(String[] args)
             throws InterruptedException {

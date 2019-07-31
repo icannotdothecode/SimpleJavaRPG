@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d84cad2-c9cc-4ce0-8d0b-0e1566e3068b" name="Default Changelist" comment="">
+    <list default="true" id="0d84cad2-c9cc-4ce0-8d0b-0e1566e3068b" name="Default Changelist" comment="changes&#10;debugging&#10;also changed some things using contextual debugging">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attacked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/attacked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maingame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maingame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,6 +16,10 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564551489530</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1564552082379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564552082379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +94,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project as of 7/30/2019&#10;transferred to IntelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="project as of 7/30/2019&#10;transferred to IntelliJ" />
+    <MESSAGE value="changes" />
+    <MESSAGE value="changes&#10;debugging&#10;also changed some things using contextual debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes&#10;debugging&#10;also changed some things using contextual debugging" />
   </component>
 </project>
