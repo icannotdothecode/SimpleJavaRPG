@@ -22,6 +22,7 @@ public class maingame {
         TimeUnit.SECONDS.sleep(1);
         System.out.println("\nYour character is in a dimly lit dungeon, possibly looking for gold, glory, or relics.");
         System.out.println("You start down the dungeon.");
-        new adventure();
+        adventure newtravels = new adventure();
+        newtravels.travels(100);
     }
 }
