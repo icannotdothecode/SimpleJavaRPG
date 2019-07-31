@@ -19,25 +19,23 @@ public class adventure {
                 case 1:
                     System.out.println("\nYou find nothing, and continue on.");
                     adventure newtravels = new adventure();
-                    newtravels.travels(playerhealth);
+                    travels(playerhealth);
                     break;
                 case 2:
                     System.out.println("\nYou are attacked by an enemy!");
                     attacked battle1 = new attacked();
-                    battle1.attacker(playerhealth);
+                    attacked.attacker(playerhealth);
                     break;
                 case 3:
                     if (playerhealth < 250){
                         System.out.println("\nYou find an object on the ground. Touching it makes you feel stronger, and powerful.");
                         playerhealth = playerhealth + 25;
                     }else{
-                        System.out.println("\nYou find an object on the ground. After touching it, it instantly shatters.");
+                        System.out.println("\nYou find an object on the ground. After touching it instantly shatters.");
                     }
+
                     newtravels = new adventure();
-                    newtravels.travels(playerhealth);
-                    break;
-                default:
-                    throw new IllegalStateException("Unexpected value: " + safeTrip);
+                    travels(playerhealth);
             }
         }
     }
