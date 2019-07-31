@@ -19,12 +19,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="icannotdothecode &lt;vishals0705@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Ol4wf2mlGCkSrLzUXF7POK3WLq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
@@ -48,6 +54,29 @@
       <option name="presentableId" value="Default" />
       <updated>1564539088221</updated>
     </task>
+    <task id="LOCAL-00001" summary="project as of 7/30/2019&#10;transferred to IntelliJ">
+      <created>1564551489530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564551489530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project as of 7/30/2019&#10;transferred to IntelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="project as of 7/30/2019&#10;transferred to IntelliJ" />
   </component>
 </project>
