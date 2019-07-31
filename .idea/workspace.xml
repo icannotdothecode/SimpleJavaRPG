@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d84cad2-c9cc-4ce0-8d0b-0e1566e3068b" name="Default Changelist" comment="">
+    <list default="true" id="0d84cad2-c9cc-4ce0-8d0b-0e1566e3068b" name="Default Changelist" comment="more debugging">
+      <change afterPath="$PROJECT_DIR$/src/notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/adventure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adventure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maingame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maingame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attacked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/attacked.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564554779567</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more debugging">
+      <created>1564555156840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564555156840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +132,7 @@
     <MESSAGE value="changes" />
     <MESSAGE value="changes&#10;debugging&#10;also changed some things using contextual debugging" />
     <MESSAGE value="fixes and debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes and debugging" />
+    <MESSAGE value="more debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="more debugging" />
   </component>
 </project>

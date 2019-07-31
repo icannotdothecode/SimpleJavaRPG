@@ -22,7 +22,6 @@ public class adventure {
                     travels(playerhealth);
                     break;
                 case 2:
-                    System.out.println("\nYou are attacked by an enemy!");
                     attacked battle1 = new attacked();
                     attacked.attacker(playerhealth);
                     break;
