@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Random;
 public class maingame {
     public static void main(String[] args)
-            throws InterruptedException{
+            throws InterruptedException {
         Scanner Myscan = new Scanner(System.in);
         System.out.println("Dungeoneer, a Java RPG by Vishal Singh");
         System.out.println("This is a game I made when I started learning Java, so it ain't perfect");
@@ -24,3 +24,4 @@ public class maingame {
         System.out.println("You start down the dungeon.");
         new adventure();
     }
+}
