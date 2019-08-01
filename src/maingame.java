@@ -3,7 +3,7 @@ import java.util.concurrent.TimeUnit;
 import java.io.*;
 
 public class maingame {
-    public static void main(String[] args)
+    public static void main()
             throws InterruptedException {
         Integer playerhealth = null;
         Scanner Myscan = new Scanner(System.in);

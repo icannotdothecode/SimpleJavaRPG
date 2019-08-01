@@ -29,7 +29,7 @@ public class adventure {
         } else if (action.charAt(0) == 'H') {
             heal.healed(playerhealth);
         } else if (action.charAt(0) == 'L'){
-            System.out.println("Your health is: " + playerhealth);
+            System.out.println("Your health is: " + playerhealth + ".");
             newtravels = new adventure();
             travels(playerhealth);
         } else {
