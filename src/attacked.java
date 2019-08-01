@@ -55,7 +55,7 @@ public class attacked {
         Scanner Myscan4 = new Scanner(System.in);
         while (enemyhealth > 0 && playerhealth > 0) {
             System.out.println("\nYou've been attacked by " + enemyname + ".");
-            System.out.println("It has " + enemyhealth + " remaining.");
+            System.out.println("It has " + enemyhealth + " health remaining.");
             System.out.println("Enter 1 to attack, and 2 to try and dodge the attack.");
             System.out.println("Your health is: " + playerhealth + ".");
             String action = Myscan4.nextLine();
@@ -188,7 +188,7 @@ public class attacked {
                         throw new IllegalStateException("Unexpected value: " + edamage);
                 }
                 TimeUnit.SECONDS.sleep(1);
-                System.out.println("You are hit first and take " + damage + " damage!");
+                System.out.println("\nThe enemy strikes and you take " + damage + " damage!");
                 combat(playerhealth);
 
             }

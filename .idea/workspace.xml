@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/attacked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/attacked.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/maingame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpg(via-IntelliJ)/maingame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/attacked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/attacked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maingame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maingame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564626857216</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="7/31/2019 patch&#10;just fixes">
+      <created>1564627523468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564627523468</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -159,6 +165,7 @@
     <MESSAGE value="7/30/2019 end of edits" />
     <MESSAGE value="7/31/2019 end of edits&#10;version 1.0 complete&#10;&#10;*celebration noises*" />
     <MESSAGE value="7/31/2019 patch&#10;fixed bugs in version 1.0 and unfinished bits of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/31/2019 patch&#10;fixed bugs in version 1.0 and unfinished bits of code" />
+    <MESSAGE value="7/31/2019 patch&#10;just fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/31/2019 patch&#10;just fixes" />
   </component>
 </project>
