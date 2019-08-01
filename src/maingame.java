@@ -3,12 +3,12 @@ import java.util.concurrent.TimeUnit;
 import java.io.*;
 
 public class maingame {
-    public static void main()
+    public static void main(String[] args)
             throws InterruptedException {
         Integer playerhealth = null;
         Scanner Myscan = new Scanner(System.in);
         TimeUnit.SECONDS.sleep(1);
-        System.out.println("Dungeoneer, a Java RPG by Vishal Singh");
+        System.out.println("\nDungeoneer, a Java RPG by Vishal Singh");
         System.out.println("This is a game I made when I started learning Java, so it ain't perfect");
         System.out.println("Game Running...");
         TimeUnit.SECONDS.sleep(2);

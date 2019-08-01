@@ -15,7 +15,9 @@ public class attacked {
         Scanner Myscan4 = new Scanner(System.in); ///just in case user input is required
         Random rand = new Random();
         int enemyvar = rand.nextInt(5) + 1;
-        ///enemyprofiles
+
+        ///enemy profiles
+
         if (enemyvar == 1) {
             enemyname = "an Orc";
             enemyhealth = 65;
@@ -53,6 +55,7 @@ public class attacked {
         Scanner Myscan4 = new Scanner(System.in);
         while (enemyhealth > 0 && playerhealth > 0) {
             System.out.println("\nYou've been attacked by " + enemyname + ".");
+            System.out.println("It has " + enemyhealth + " remaining.");
             System.out.println("Enter 1 to attack, and 2 to try and dodge the attack.");
             System.out.println("Your health is: " + playerhealth + ".");
             String action = Myscan4.nextLine();
@@ -196,7 +199,7 @@ public class attacked {
             System.out.println("You Died");
             System.out.println("GAME OVER.");
             TimeUnit.SECONDS.sleep(1);
-            maingame.main();
+            maingame.main(null);
         }else if (enemyhealth < 1){
             System.out.println("You win the battle!");
             adventure.travels(playerhealth);
