@@ -150,15 +150,15 @@ public class attacked {
                 switch (pdamage) {
                     case 1:
                         damage = playerdamage - ldmg;
-                        enemyhealth = enemyhealth - damage;
+                        enemyhealth -= damage;
                         break;
                     case 2:
                         damage = playerdamage;
-                        enemyhealth = enemyhealth - damage;
+                        enemyhealth -= damage;
                         break;
                     case 3:
                         damage = playerdamage + ldmg;
-                        enemyhealth = enemyhealth - damage;
+                        enemyhealth -= damage;
                         break;
                     default:
                         throw new IllegalStateException("Unexpected value: " + pdamage);
@@ -174,15 +174,15 @@ public class attacked {
                 switch (edamage) {
                     case 1:
                         damage = attackdamage - ldmg;
-                        playerhealth = playerhealth - damage;
+                        playerhealth -= damage;
                         break;
                     case 2:
                         damage = attackdamage;
-                        playerhealth = playerhealth - damage;
+                        playerhealth -= damage;
                         break;
                     case 3:
                         damage = attackdamage + ldmg;
-                        playerhealth = playerhealth - damage;
+                        playerhealth -= damage;
                         break;
                     default:
                         throw new IllegalStateException("Unexpected value: " + edamage);
