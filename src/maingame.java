@@ -27,7 +27,9 @@ public class maingame {
         TimeUnit.SECONDS.sleep(1);
         System.out.println("\nYour character is in a dimly lit dungeon, possibly looking for gold, glory, or relics.");
         TimeUnit.SECONDS.sleep(1);
-        System.out.println("CHOOSE YOUR CLASS \n1: Mage\n2: Warrior\n3: Assassin.");
+        System.out.println("\n-----------------------------------------------------");
+        System.out.println("CHOOSE YOUR CLASS \n\n1: Mage\n2: Warrior\n3: Assassin.");
+        System.out.println("-------------------------------------------------------");
         String difficulty = Myscan.nextLine();
         TimeUnit.SECONDS.sleep(1);
         if (difficulty.charAt(0) == '1'){
