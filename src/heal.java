@@ -4,7 +4,6 @@ import java.io.*;
 
 public class heal {
     public static void healed() throws InterruptedException{
-        adventure newtravels;
         System.out.println("You choose to rest and heal.");
         if (maingame.playerhealth < 150) {
             System.out.println("\nYou feel rested and ready to move on.");
@@ -12,8 +11,6 @@ public class heal {
         } else {
             System.out.println("\nYou already feel rested and healed.");
         }
-
-        newtravels = new adventure();
         adventure.travels();
 
 
