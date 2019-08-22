@@ -26,7 +26,7 @@ public class adventure {
         } else if (action.charAt(0) == 'H') {
             heal.healed();
         } else if (action.charAt(0) == 'L') {
-            System.out.println("Your health is: " + maingame.playerhealth + ".");
+            System.out.println("Your health is: " + PlayerClasses.stats[1] + ".");
             adventure.travels();
         } else if (action.charAt(0) == 'S') {
             System.out.println("Your stats are: " + Arrays.toString(PlayerClasses.sstats));

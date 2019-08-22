@@ -51,7 +51,7 @@ public class maingame {
             System.out.println("The stats are: " + Arrays.toString(PlayerClasses.sstats));
         }
         System.out.println("You start down the dungeon.");
-        playerhealth = PlayerClasses.stats[1];
+
         adventure.travels();
     }
 }
