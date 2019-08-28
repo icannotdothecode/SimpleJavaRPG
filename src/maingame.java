@@ -5,13 +5,21 @@ import java.util.concurrent.TimeUnit;
 
 public class maingame {
     ///constantly changing variables go here
-    public static int playerhealth;
 
     public static void main(String[] args)
             throws InterruptedException {
+        System.out.println("\n\n ______            _        _______  _______  _        _______  _______  _______ \n" +
+                "(  __  \\ |\\     /|( (    /|(  ____ \\(  ___  )( (    /|(  ____ \\(  ____ \\(  ____ )\n" +
+                "| (  \\  )| )   ( ||  \\  ( || (    \\/| (   ) ||  \\  ( || (    \\/| (    \\/| (    )|\n" +
+                "| |   ) || |   | ||   \\ | || (__    | |   | ||   \\ | || (__    | (__    | (____)|\n" +
+                "| |   | || |   | || (\\ \\) ||  __)   | |   | || (\\ \\) ||  __)   |  __)   |     __)\n" +
+                "| |   ) || |   | || | \\   || (      | |   | || | \\   || (      | (      | (\\ (   \n" +
+                "| (__/  )| (___) || )  \\  || (____/\\| (___) || )  \\  || (____/\\| (____/\\| ) \\ \\__\n" +
+                "(______/ (_______)|/    )_)(_______/(_______)|/    )_)(_______/(_______/|/   \\__/\n" +
+                "                                                                                 ");
         Scanner Myscan = new Scanner(System.in);
         TimeUnit.SECONDS.sleep(1);
-        System.out.println("\nDungeoneer, a Java RPG by Vishal Singh");
+        System.out.println("\n\nDungeoneer, a Java RPG by Vishal Singh");
         System.out.println("This is a game I made when I started learning Java, so it ain't perfect");
         System.out.println("Game Running...");
         TimeUnit.SECONDS.sleep(2);

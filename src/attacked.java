@@ -54,11 +54,11 @@ public class attacked {
 
     public static void combat() throws InterruptedException {
         Scanner Myscan4 = new Scanner(System.in);
-        while (enemyhealth > 0 && maingame.playerhealth > 0) {
+        while (enemyhealth > 0 && PlayerClasses.stats[1] > 0) {
             System.out.println("\nYou've been attacked by " + enemyname + ".");
             System.out.println("It has " + enemyhealth + " health remaining.");
             System.out.println("Enter 1 to attack, and 2 to try and dodge the attack.");
-            System.out.println("Your health is: " + maingame.playerhealth + ".");
+            System.out.println("Your health is: " + PlayerClasses.stats[1] + ".");
             String action = Myscan4.nextLine();
             TimeUnit.SECONDS.sleep(1);
             if (action.charAt(0) == '1') {
@@ -208,7 +208,7 @@ public class attacked {
 
         }
 
-        if (maingame.playerhealth < 1){
+        if (PlayerClasses.stats[1] < 1){
             System.out.println("You Died");
             System.out.println("GAME OVER.");
             TimeUnit.SECONDS.sleep(1);
